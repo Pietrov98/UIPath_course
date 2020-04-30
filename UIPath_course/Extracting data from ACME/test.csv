@@ -1,0 +1,101 @@
+﻿Column1
+" 
+Toggle navigation 
+
+
+ ACME System 1  
+
+Home
+
+
+Log In
+
+ "
+"Toggle navigation 
+
+
+ ACME System 1 "
+"
+Home
+
+
+Log In"
+" 
+
+
+Account - Log In  
+Home 
+ Account - Log In
+  
+
+
+
+To continue, please authenticate here
+
+
+
+Email: 
+
+
+Password: 
+
+ Log In Forgot Password Register jQuery(document).ready(function(){ jQuery('#buttonLogin').click(function(ev){ ev.preventDefault(); var nEmail = jQuery('#email').val(); if (nEmail == """" ) { //|| !IsEmail(nEmail)) { alert('Plase fill in your email address'); return; } var nPass1 = jQuery('#password').val(); if (nPass1 == """") { alert('Please fill in your password'); return; } jQuery.ajax({ type: ""POST"", url: ""/cmajax.php"", data: { cmd: ""loginUser"", rEmail: nEmail, rPass: nPass1 } }) .done(function( msg ) { if (msg == 'bad') alert(""Email/Password combo is not correct""); else location.reload(); }); }); });  
+
+
+
+
+Copyright © new Date().getFullYear()>2010&&document.write(new Date().getFullYear());2020 ACME Systems"
+"
+Account - Log In  
+Home 
+ Account - Log In
+ "
+"Account - Log In  
+Home 
+ Account - Log In
+ "
+"
+
+To continue, please authenticate here
+
+
+
+Email: 
+
+
+Password: 
+
+ Log In Forgot Password Register jQuery(document).ready(function(){ jQuery('#buttonLogin').click(function(ev){ ev.preventDefault(); var nEmail = jQuery('#email').val(); if (nEmail == """" ) { //|| !IsEmail(nEmail)) { alert('Plase fill in your email address'); return; } var nPass1 = jQuery('#password').val(); if (nPass1 == """") { alert('Please fill in your password'); return; } jQuery.ajax({ type: ""POST"", url: ""/cmajax.php"", data: { cmd: ""loginUser"", rEmail: nEmail, rPass: nPass1 } }) .done(function( msg ) { if (msg == 'bad') alert(""Email/Password combo is not correct""); else location.reload(); }); }); }); "
+"
+To continue, please authenticate here
+
+
+
+Email: 
+
+
+Password: 
+
+ Log In Forgot Password Register "
+"To continue, please authenticate here
+
+
+
+Email: 
+
+
+Password: 
+
+ Log In Forgot Password Register "
+"Email: "
+"Email: "
+"Password: "
+"Password: "
+
+"
+
+Copyright © new Date().getFullYear()>2010&&document.write(new Date().getFullYear());2020 ACME Systems"
+"
+
+
+Copyright © new Date().getFullYear()>2010&&document.write(new Date().getFullYear());2020 ACME Systems"
